@@ -10,9 +10,9 @@ function Design (){
         setColor(false)
     }
     return <div>
-        <div  className="ml-[450px] mt-[80px]">
+        <div  className="sm:ml-[450px] ml-[50px] mt-[80px]">
             <div style={{ backgroundColor:color == true ? "yellow" : " " }} className=" w-[300px] rounded-full h-[300px] border-[6px] border-solid border-black mb-[20px]"></div>
-            <button style={{ backgroundColor: color ==true ? "blue" : " "}} onClick={handleOnButton} className="bg-orange-500 rounded-[10px]  ml-[50px] w-[100px] h-[50px] text-[20px] font-semibold hover:border-2 hover:border-solid hover:border-black hover:bg-white"> ON </button>
+            <button style={{ backgroundColor: color ==true ? "blue" : " "}} onClick={handleOnButton} className="bg-orange-500 rounded-[10px]  ml-[50px] w-[100px] mr-[10px] h-[50px] text-[20px] font-semibold hover:border-2 hover:border-solid hover:border-black hover:bg-white"> ON </button>
             <button style={{ backgroundColor: color ==false ? "blue" : " "}} onClick={handleOffButton} className="bg-orange-500  rounded-[10px] w-[100px] h-[50px] text-[20px] font-semibold hover:border-2 hover:border-solid hover:border-black ml-[10px] hover:bg-white"> OFF</button>
         </div>
     </div>
